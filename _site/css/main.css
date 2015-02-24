@@ -147,7 +147,6 @@ pre {
  */
 .site-header {
   border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   position: relative; }
 
@@ -157,7 +156,8 @@ pre {
   height: 300px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   text-indent: -9999px;
   background: url("/images/logo.png") center center no-repeat;
   background-size: 200px; }
@@ -313,6 +313,9 @@ pre {
 
 .subhead {
   text-align: center; }
+
+.faq-header {
+  font-weight: 500; }
 
 /**
  * Syntax highlighting styles

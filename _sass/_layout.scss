@@ -3,7 +3,7 @@
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    // border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -16,7 +16,8 @@
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     text-indent: -9999px;
     background: url('/images/logo.png') center center no-repeat;
     background-size: 200px;
@@ -237,4 +238,9 @@
 
 .subhead {
     text-align: center;
+}
+
+.faq-header {
+    // font-style: italic;
+    font-weight: 500;
 }
