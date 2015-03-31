@@ -317,6 +317,22 @@ pre {
 .faq-header {
   font-weight: 500; }
 
+.nav-header {
+  text-align: center;
+  list-style: none;
+  margin: 40px 0 0;
+  padding: 0; }
+  .nav-header li {
+    display: inline-block;
+    margin: 0 10px;
+    text-transform: uppercase; }
+
+.submit-your-proposal {
+  display: block;
+  margin: 10px auto 0;
+  text-align: center;
+  font-size: 18px; }
+
 /**
  * Syntax highlighting styles
  */
