@@ -102,6 +102,13 @@ a {
     }
 }
 
+h2 a, h3 a {
+    color: $text-color;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
 
 
 /**

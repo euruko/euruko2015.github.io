@@ -72,6 +72,11 @@ a {
     color: #111;
     text-decoration: underline; }
 
+h2 a, h3 a {
+  color: #111; }
+  h2 a:hover, h3 a:hover {
+    text-decoration: none; }
+
 /**
  * Blockquotes
  */
