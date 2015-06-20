@@ -264,3 +264,17 @@
     text-align: center;
     font-size: 18px;
 }
+
+.speaker {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+
+    h4 {
+        font-weight: bold;
+    }
+
+    h4,h5 {
+        // font-weight: bold;
+        font-size: 24px;
+    }
+}

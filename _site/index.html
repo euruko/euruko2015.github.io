@@ -20,8 +20,8 @@
     <header class="site-header">
 
   <ul class="nav-header">
-    <li><a href="#faq">FAQ</a></li>
     <li><a href="#venue" target="_blank">Venue</a></li>
+    <li><a href="http://berlincodeofconduct.org/" target="_blank">Code of Conduct</a></li>
     <li class="cta"><a href="#speakers">Speakers</a></li>
     <li class="cta"><a href="https://ti.to/euruko/2015" target="_blank">Tickets</a></li>
   </ul>
@@ -78,34 +78,95 @@
 
 <h2><a name="speakers">Speakers</a></h2>
 
-<p>Call for Proposals has been closed and speakers will be announced till end of May. Thanks for participation, we're very excited by all the great talkes we've received!</p>
+<div class="speaker">
+  <h4>Yukihiro "Matz" Matsumoto</h4>
 
-<br><br><br>
+  <h5>Keynote</h5>
 
-<h2><a name="faq">Frequently Asked Questions</a></h2>
+  <p style="font-style:italic;">
+    Yukihiro “Matz” Matsumoto is the mastermind behind the inception of Ruby. Since 1993 he has been designing our precious jewel up to its current version. Meanwhile he has been working on mruby, a lightweight Ruby implementation.
+  </p>
+</div>
 
-<h4 class="faq-header">Why was there no vote?</h4>
+<div class="speaker">
+  <h4>Bradley Grzesiak</h4>
 
-<p>After having to cancel EuRuKo 2014 last year we thought about running an online vote, but the truth is — it turned out to be really difficult to build a fair system in time. There would be many grey areas (eligibility of ticket holders vs non ticket-holders, for example) that we would have had to have dealt with.</p>
-<p>Historically, teams presented their cities during the conference. With online voting you also wouldn't get the chance to get to know the team and the people behind the next year's conference personally.</p>
+  <h5>Simplify Challenging Software Problems with Rocket Science</h5>
 
+  <p>
+    Aerospace engineering is really no more magical than programming, and yet it's shrouded in such mystery and mysticism that practically no one bothers to study it. I'll show you how to apply concepts from rocket science to challenging software problems, allowing you to spend more time coming up with answers rather than interpreting inputs. We'll also learn to control the universe outside our glowing rectangles.
+  </p>
+  <p style="font-style:italic;">
+    Before founding the Ruby consulting shop Bendyworks in 2009, Brad spent over 5 years as an aerospace engineer. He's created a mining cutterhead for lunar excavation, worked on a plant growth chamber currently on the International Space Station, flown in the Vomit Comet, and designed life-support systems for a next-generation inflatable space station.
+  </p>
+</div>
 
-<h4 class="faq-header">Who's organising EuRuKo 2015?</h4>
+<div class="speaker">
+  <h4>Lydia Krupp-Hunter</h4>
 
-<p>EuRuKo 2015 is organised by the Ukrainian-based EuRuKo 2014 team (Vlad, Natalia, and Julia) with support from other European Ruby associations, including Ruby Berlin e.V. (the organisers of EuRuKo 2011 and eurucamp).</p>
+  <h5>Ruby Game Building Throwdown</h5>
 
-<h4 class="faq-header">Why Salzburg, Austria?</h4>
+  <p>
+    It's time for a good, old fashioned tech stack throw down - this talk will walk through two techniques for building games using our very favourite programming language.
+  </p>
+  <p>
+    First we'll look at a small handful of gems that give us easy use of essential video game components like animation and keyboard input to build a fun little pet project (literally - we're going to build a Tamagotchi-style digital pet).
+  </p>
+  <p>
+    Next we'll take it to the browser and give it a shot in Rails. We'll forego things like gravity that don't come naturally with this tech stack, and instead employ the sorcery of modern front-end techniques to help us build a beautiful web-based RPG.
+  </p>
+  <p>
+    By the end of this talk, we'll have seen how two very different techniques were used to build two very different games. Which approach comes out winner of this rumble? That will be for you to decide.
+  </p>
+  <p style="font-style:italic;">
+    Lydia is a generalist on the Shopify engineering team. She works on projects like building internal tools, growing internal communication and engineering culture, and developing the Shopify R&D onboarding program. Her free time is distributed across coding, illustration, design, photography, fiction reading, and video games, and she loves every step in the software development process equally.
+  </p>
+</div>
 
-<p>As you probably remember, we've had to cancel EuRuKo 2014 in Kiev because we couldn't guarantee safety to all and every attendee, which is still the case.</p>
-<p>We evaluated five beautiful cities and Salzburg won the vote. We think that it's a great choice for a conference like EuRuKo and just a fantastic place to spend some time at.</p>
+<div class="speaker">
+  <h4>Satoshi Tagomori</h4>
 
-<h4 class="faq-header">When Call for Papers will be open?</h4>
+  <h5>Data Analytics Service Company and Its Ruby Usage</h5>
 
-<p>We're going to open Call for Papers in March. We are going to try something new, so stay tuned!</p>
+  <p>
+    This talks is about description of architecture of data analytics platform service of Treasure Data, what we use Ruby/JRuby for and what we don't use Ruby for. There are many reasons what will be talked about, not only productivity and performance.
+  </p>
+  <p>
+    Data analytics platform architecture is very far from well-known web service architecture. There are huge scale queues, workers, schedulers and distributed processing clusters. But there are also well-known parts like web application servers written in RoR and RDBMSs.
+  </p>
+  <p>
+    Big data world is almost dominated by Java and other JVM languages, but we are using Ruby for many parts of our systems. We also hosts some important OSS products in such Big Data area, deeply related with Ruby/JRuby culture, named as Fluentd and Embulk. We want share why, where and how we are using Ruby.
+  </p>
+  <p style="font-style:italic;">
+    An OSS author, living in Tokyo, and working at Treasure Data, Inc. Many of his contributions are for data processing software, like [Fluentd](http://www.fluentd.org/), [Norikra](http://norikra.github.io/) and many other software for data processing.
+  </p>
+</div>
 
-<h4 class="faq-header">Will there be a Code of Conduct?</h4>
+<div class="speaker">
+  <h4>Simon Eskildsen</h4>
 
-<p>Yes.</p>
+  <h5>Super-Reliable Software</h5>
+
+  <p>
+    This talk dives into how to design super reliable systems. We’ll look at what we can learn from software with aggressive reliability requirements with human lives on the line such as spacecrafts. What can we integrate into every day systems, and how can we write tests for these requirements? At Shopify we’ve taken some of those resiliency patterns to production, we’ll share our successes and how we write automated tests to ensure continues reliability. This talk will introduce humbling concepts from the most complex software in the world, but also real-world tools, resources and techniques that you can adopt today.
+  </p>
+  <p style="font-style:italic;">
+
+  </p>
+</div>
+
+<div class="speaker">
+  <h4>Amy Wibowo</h4>
+
+  <h5>Fold, paper, scissors—an exploration of origiami's cut and fold problem</h5>
+
+  <p>
+    This talk looks beyond origami as a childhood pastime and an art form and instead, explores origami as a source of many interesting mathematical problems, including one called the fold-and-cut problem. The fold and cut theorem states that it is possible, given a piece of paper and any polygonal shape, to find a series of folds of that paper such that the given shape can be generated with a single cut. This talk explores two proofs of the theorem and and a Ruby implementation of a solver that determines the correct series of folds given any input polygon. There will be a live demo of the program and paper cutting!
+  </p>
+  <p style="font-style:italic;">
+    Amy is the founder of BubbleSort Zines, zines to make computer science concepts accessible to everyone! In previous lives, she was a web dev at airbnb, did machine learning research on the ASIMO team at Honda Research Institute in Japan and HCI research at the University of Tokyo. She also enjoys hardware hacking and the intersection of art and technology-- in particular, making tools that enable people to be more creative.
+  </p>
+</div>
 
       </div>
     </div>

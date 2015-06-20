@@ -115,16 +115,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(960px - (30px * 2));
+  max-width: calc(960px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
+      max-width: -webkit-calc(960px - (30px));
+      max-width: calc(960px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -337,6 +337,14 @@ pre {
   margin: 10px auto 0;
   text-align: center;
   font-size: 18px; }
+
+.speaker {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px; }
+  .speaker h4 {
+    font-weight: bold; }
+  .speaker h4, .speaker h5 {
+    font-size: 24px; }
 
 /**
  * Syntax highlighting styles
