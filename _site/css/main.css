@@ -361,6 +361,13 @@ table {
   border: 1px solid #ddd;
   padding: 5px; }
 
+.sponsor-logos a {
+  display: inline-block;
+  margin-bottom: 60px; }
+.sponsor-logos img {
+  width: 250px;
+  margin-right: 40px; }
+
 /**
  * Syntax highlighting styles
  */
