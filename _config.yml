@@ -3,7 +3,7 @@ title: EuRuKo 2015
 email: awesome@euruko2015.org
 description: EuRuKo 2015 (European Ruby Conference) will be happening in Salzburg, Austria on October 17-18, 2015.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://euruko2015.org" # the base hostname & protocol for your site
+url: "https://2015.euruko.org" # the base hostname & protocol for your site
 twitter_username: euruko
 github_username:  euruko
 
